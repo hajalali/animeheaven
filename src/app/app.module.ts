@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TopBarComponent } from './top-bar/top-bar.component';
+import { LeftBarComponent } from './left-bar/left-bar.component';
+import { BodyComponent } from './body/body.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TopBarComponent,
+    LeftBarComponent,
+    BodyComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
